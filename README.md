@@ -1,6 +1,6 @@
 # Haptics iOS Kha
 
-Kha library for haptic feedback on iOS. Only works on iOS 10+ and iPhone 7 and up.  
+Kha library for haptic feedback on iOS. Only works on iOS 10+ and iPhone 7 and up. On older versions of iOS and devices that don't support it the function calls are ignored.
 
 ## Installation
 Clone this repository into the Libraries folder of your Kha project and add the following line to your khafile.js:  
