@@ -23,12 +23,12 @@
 
 package haptics;
 
-#if (sys_ios)
+#if sys_ios
 @:headerCode('#include "HapticsK.h"')
 #end
 
 class Haptics {
-  #if (sys_ios)
+  #if sys_ios
   @:functionCode('HapticsK::play(type);')
   #end
   public static function play(type: HapticsType): Void {}
